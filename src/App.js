@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import * as tf from "@tensorflow/tfjs";
-import { model } from "./documents/index";
 import * as cvstfjs from "@microsoft/customvision-tfjs";
 
 export default class App extends Component {
