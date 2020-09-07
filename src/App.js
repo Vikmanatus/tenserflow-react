@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import * as tf from "@tensorflow/tfjs";
 import * as cvstfjs from "@microsoft/customvision-tfjs";
 
 export default class App extends Component {
@@ -85,7 +84,6 @@ export default class App extends Component {
   }
 
   render() {
-    console.log(tf);
     let { imagePreviewUrl } = this.state;
     let $imagePreview = null;
     if (imagePreviewUrl) {
